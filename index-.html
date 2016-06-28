@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+<link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.min.css"> 
+<link rel="stylesheet" href="node_modules/tooltipster/css/tooltipster.css"> 
 
     <meta charset="UTF-8">
     <title>EWP HA 16</title>
 </head>
 <body>
-Es ist ein neues file
+<table id="Film">
+  <thead>
+    <tr>
+      <th>Titel</th>
+      <th>Erscheinungsjahr</th>
+      <th>Land</th>
+      <th>Hauptdarstelle</th>
+    </tr>
+  </thead>
+  
+  <button id="My"> Mein Lieblingsfilm </button>
+  <div id="Info">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Animated_character_Peppa_Pig.png" alt="Mein Lieblingsfilm">
+        <div>Es ist mein Lieblingsfilm weil bla bla</div>
+    </div>
+  
+
+ </table>
+  
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="node_modules/tooltipster/js/jquery.tooltipster.js"></script>
+<script src="my.js"></script>
 </body>
 
 </html>
